@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Forum Cinema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+</nav>
+<div class="admin-controls">
+    <h2>Create New Movie</h2>
+    <input type="text" id="movie-title" placeholder="Movie Title">
+    <input type="text" id="movie-image" placeholder="Movie Image URL">
+    <input type="number" id="seats-total" placeholder="Total Seats">
+    <button onclick="createMovie()">Create Movie</button>
+</div>
+
+<div class="movie-list" id="movie-list">
+</div>
+
+<div class="reservation-list" id="reservation-list">
+</div>
+
+<script src="main.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
+
